@@ -1,0 +1,6 @@
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\Model\bin\Debug\Model.dll
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\Model\bin\Debug\Model.pdb
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\Model\obj\Debug\Model.csprojAssemblyReference.cache
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\Model\obj\Debug\Model.dll
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\Model\obj\Debug\Model.pdb

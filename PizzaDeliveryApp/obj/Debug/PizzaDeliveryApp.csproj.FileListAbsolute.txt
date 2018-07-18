@@ -1,0 +1,10 @@
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\bin\Debug\PizzaDeliveryApp.exe.config
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\bin\Debug\PizzaDeliveryApp.exe
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\bin\Debug\PizzaDeliveryApp.pdb
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\bin\Debug\Model.dll
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\bin\Debug\Model.pdb
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\obj\Debug\PizzaDeliveryApp.csprojAssemblyReference.cache
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\obj\Debug\PizzaDeliveryApp.csproj.CoreCompileInputs.cache
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\obj\Debug\PizzaDeliveryApp.csproj.CopyComplete
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\obj\Debug\PizzaDeliveryApp.exe
+c:\users\ramya.vempalla\source\repos\PizzaDeliveryApp\PizzaDeliveryApp\obj\Debug\PizzaDeliveryApp.pdb
