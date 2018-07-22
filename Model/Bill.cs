@@ -4,20 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace Neudesic.Model
 {
     public class Bill
-    {
-        
-        public int total=0;
+    {     
+        public int cost=0;
 
-        public void payment(Pizza pizza)
+        public void Payment(Pizza pizza)
         {
-            foreach (var item in Order.cart)
+            foreach (var item in Order.Cart)
             {
-                total = total + item.Price;
+                cost = cost + item.Price;
             }
-            Console.WriteLine("Your bill is"+total);
+            Console.WriteLine("Your bill is"+ cost);
         }
     }
 }

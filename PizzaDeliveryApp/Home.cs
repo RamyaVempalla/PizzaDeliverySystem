@@ -1,4 +1,4 @@
-﻿using Model;
+﻿using Neudesic.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +19,7 @@ namespace PizzaDeliveryApp
             do
             {
              int option;
+                Console.WriteLine("---------Select an item---------");
                 Console.WriteLine("1.Pizza");
                 Console.WriteLine("2.Beverages");
                 Console.WriteLine("3.Bill");
@@ -27,13 +28,13 @@ namespace PizzaDeliveryApp
                 switch (option)
                 {
                     case 1:
-                        pizza.selectPizzaType();
+                        pizza.SelectPizzaType();
                         break;
                     case 2:
-                        beverages.selectBeverage();
+                        beverages.SelectBeverage();
                         break;
                     case 3:
-                        bill.payment(pizza);
+                        bill.Payment(pizza);
                         break;
                     case 4:Console.WriteLine("Exit");
                         break;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace Neudesic.Model
 {
     public class Pizza
     {
@@ -12,7 +12,7 @@ namespace Model
         public string Name { get; set; }
         public int Price { get; set; }
         
-        public void selectPizzaType()
+        public void SelectPizzaType()
         {
             int selection = 1;
             Console.WriteLine("-----Select type of pizza------");
@@ -22,18 +22,18 @@ namespace Model
             if(selection==1)
             {
                 var vegPizza = new VegPizza();
-                vegPizza.veg();
+                vegPizza.Veg();
             }
             else
             {
                 var nonVegPizza = new NonVegPizza();
-                nonVegPizza.nonVeg();
+                nonVegPizza.NonVeg();
             }
         }
     }
     public class VegPizza : Pizza
     {
-        public void veg()
+        public void Veg()
         {
             List<Pizza> pizzaList = new List<Pizza>();
             pizzaList.Add(new Pizza() { Id=1,Name = "cheese pizza", Price = 150 });
@@ -50,16 +50,15 @@ namespace Model
             {
                 if(item.Id==choosedPizza)
                 {
-                    Order.cart.Add(new Pizza() { Id = item.Id, Name = item.Name, Price = item.Price });
+                    Order.Cart.Add(new Pizza() { Id = item.Id, Name = item.Name, Price = item.Price });
                    // Console.WriteLine(item.Id + "." + item.Name + " " + item.Price);
                 }
             }
-
         }
     }
     public class NonVegPizza : Pizza
     {
-        public void nonVeg()
+        public void NonVeg()
         {
             List<Pizza> pizzaList = new List<Pizza>();
             pizzaList.Add(new Pizza() { Id = 1, Name = "cheese pizza", Price = 150 });
@@ -70,18 +69,17 @@ namespace Model
             {
              Console.WriteLine(item.Id + "." + item.Name + " " + item.Price);
             }
-            int choosedPizza;
-            choosedPizza = Convert.ToInt32(Console.ReadLine());
+            int choosenPizza;
+            choosenPizza = Convert.ToInt32(Console.ReadLine());
             foreach (var item in pizzaList)
             {
-                if (item.Id == choosedPizza)
+                if (item.Id == choosenPizza)
                 {
-                    Order.cart.Add(new Pizza() { Id = item.Id, Name = item.Name, Price = item.Price });
+                    Order.Cart.Add(new Pizza() { Id = item.Id, Name = item.Name, Price = item.Price });
                    // Console.WriteLine(item.Id + "." + item.Name + " " + item.Price);
                 }
             }
 
         }
-
     }
 }

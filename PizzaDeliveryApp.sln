@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDeliveryApp", "PizzaDeliveryApp\PizzaDeliveryApp.csproj", "{76F438BA-060B-43AB-8114-C4DB9C1AFB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{D06225F9-801E-4C0B-853C-6CAEE7592DBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neudesic.Model", "Model\Neudesic.Model.csproj", "{D06225F9-801E-4C0B-853C-6CAEE7592DBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

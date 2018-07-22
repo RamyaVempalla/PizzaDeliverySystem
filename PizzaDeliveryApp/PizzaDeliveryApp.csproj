@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
+    <ProjectReference Include="..\Model\Neudesic.Model.csproj">
       <Project>{d06225f9-801e-4c0b-853c-6caee7592dbb}</Project>
-      <Name>Model</Name>
+      <Name>Neudesic.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

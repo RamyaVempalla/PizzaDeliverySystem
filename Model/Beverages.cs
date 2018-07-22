@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace Neudesic.Model
 {
    public class Beverages
-    {
+   {
         public int Id { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
-        public void selectBeverage()
+        public void SelectBeverage()
         {
             List<Beverages> beverageList = new List<Beverages>();
             beverageList.Add(new Beverages() { Id = 1, Name = "Aam panna", Price = 150 });
@@ -28,8 +28,7 @@ namespace Model
             {
                 if (item.Id == choosedPizza)
                 {
-                    Order.cart.Add(new Pizza() { Id = item.Id, Name = item.Name, Price = item.Price });
-                    // Console.WriteLine(item.Id + "." + item.Name + " " + item.Price);
+                    Order.Cart.Add(new Pizza() { Id = item.Id, Name = item.Name, Price = item.Price });
                 }
             }
         }
